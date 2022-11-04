@@ -27,6 +27,12 @@ We will create a system for user to log expenses and give the user a total sum o
 11. In `index.tsx`, create a total sum of the expenses.
 12. Style the total sum so that it is more presentable.
 
+# How to run
+
+1. `npm install`
+2. Duplicate `.env-example` and rename to `.env`
+3. `npm run dev`
+
 ---
 
 To include unit test in further release
