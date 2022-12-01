@@ -13,10 +13,10 @@ We will create a system for user to log expenses and give the user a total sum o
 
 # The Steps
 
-1. At `prisma/schema.prisma`, setup an Expense model.
-2. In `server/router/expense.ts`, create a trpc router to allow user to create an expense.
-3. In `index.tsx`, create a form to allow user to enter an expense.
-4. Style the form so that it is visible.
+1. In `index.tsx`, create a form to allow user to enter an expense.
+2. Style the form so that it is visible.
+3. At `prisma/schema.prisma`, setup an Expense model.
+4. In `server/router/expense.ts`, create a trpc router to allow user to create an expense.
 5. In `index.tsx`, create a list to show all the expenses.
 6. Style the list so that it is more presentable.
 7. In `index.tsx`, create a total sum of the expenses.
